@@ -23,8 +23,8 @@ const scraperObject = {
 		await page.keyboard.press("PageDown");
 		await page.keyboard.press("PageDown");
 		//await page.type("input[name=email]", emailadd );
-		await page.type("input[name=email]", emailadd );
-		await page.type("input[name=password]", pswd );
+		await page.type("input[name=email]", emailadd , {delay: 250}  ); // delay ekak dammama type wenne slowly . ikmanata type unoth samahara karunu maga hArenwa . but himin type kalaama akuru siyalla type wenwa 
+		await page.type("input[name=password]", pswd , {delay: 250}  );
 		await page.click('#loginForm > div > div:nth-child(3) > button:nth-child(1)' )
 
 

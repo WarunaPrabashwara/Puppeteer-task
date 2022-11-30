@@ -1,0 +1,24 @@
+Question 
+
+Create two NodeJS Puppeteer Bot to:
+A. Create new account Bot:
+    Open homepage: https://fruitlab.com/
+    Click on Sign/Register
+    Create a new account
+B. Sign In and watch video
+    Open homepage: https://fruitlab.com/
+    Login with new account
+    Goto the homepage again, click and watch the first video in the list
+
+==========================
+
+
+//npm init
+//npm install --save puppeteer
+npm i
+
+how to run 
+    bot1.js and bot2.js has 2 variables to change username and password. please check it first and change accodingly . 'emailadd' is for username and 'pswd' is for password. 
+    node bot1.js
+    node bot2.js
+

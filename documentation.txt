@@ -22,3 +22,13 @@ how to run
     node bot1.js
     node bot2.js
 
+
+
+
+
+
+
+js use karala page eke js execute karanna oninm 
+https://stackoverflow.com/questions/68220081/puppeteer-wait-for-keyboard-type-to-finish-typing-long-text#:~:text=and%20set%20the,await%20page.evaluate
+
+link eka balanna
